@@ -151,7 +151,8 @@ int main(int argc, char* argv[]) {
 	return 0;
       }
       save_format = img_name_tokens[img_name_tokens.size() - 1];
-    } 
+    }
+    //NO SHOW 
     else if(option_name == NO_SHOW_OPTION_NAME){
       noshow = true;
     } else {
