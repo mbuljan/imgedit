@@ -153,7 +153,7 @@ int main(int argc, char* argv[]) {
       save_format = img_name_tokens[img_name_tokens.size() - 1];
     }
     //NO SHOW 
-    else if(option_name == NO_SHOW_OPTION_NAME){
+    else if(option_name == NO_SHOW_OPTION_NAME) {
       noshow = true;
     } else {
       cout << "Option \"" + option_name + "\" not recognized!" << endl;
