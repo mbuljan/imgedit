@@ -1,0 +1,11 @@
+Upute za korištenje imgedit:
+
+Programu se mogu davati preko argumenata naredbenog retka opcije i svakoj opciji nijedna ili više parametara.
+
+./imgedit -opcija1 parametar1 paramtar2 -opcija2 parametar1 parametar2 ...
+
+Postojuće opcije su:
+- blur (prima samo jedan parametar - snagu bluranja slike, tj veličina kernela koji se koristi u konvoluciji)
+- resize (prima dva parametra - sirina i visina slike)
+- erosion (prima jedan parametar - velicina erozije)
+- sobel (prima ili 0 parametara ili 3. Ako prima 3 onda su to: jakost efekta, red derivacije po x-u, red derivacije po y)
